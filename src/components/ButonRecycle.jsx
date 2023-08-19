@@ -1,14 +1,14 @@
 import React from "react";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
-import { StyleSheet, TouchableOpacity } from "react-native";
+import { Alert, StyleSheet, TouchableOpacity } from "react-native";
 import CustomText from "./CustomText";
 
 const ButonRecycle = () => {
   return (
     <TouchableOpacity
       style={styles.buttonRecycle}
-      onPress={() => alert("Hola")}
+      onPress={() => Alert.alert("Solicitar recolección")}
     >
       <FontAwesome name="recycle" size={20} color="black" />
       <CustomText

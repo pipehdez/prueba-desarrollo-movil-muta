@@ -1,4 +1,4 @@
-import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
+import { View, Image, StyleSheet, TouchableOpacity, Alert } from "react-native";
 import React from "react";
 import CustomText from "./CustomText";
 import { BlurView } from "expo-blur";
@@ -6,7 +6,7 @@ import Card from "./Card";
 
 const VideoPromo = () => {
   const loadVideo = () => {
-    console.log("Cargando video");
+    Alert.alert("Cargando video");
   };
 
   return (

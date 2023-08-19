@@ -20,13 +20,6 @@ export default function App() {
           tabBarStyle: {
             backgroundColor: "#171717",
             borderTopWidth: 0,
-            shadowOffset: {
-              width: 0,
-              height: -10,
-            },
-            shadowOpacity: 0.05,
-            shadowRadius: 10,
-            elevation: 2,
           },
           tabBarLabelStyle: {
             fontSize: 12,

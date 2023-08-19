@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Layout from "../theme/Layout";
 import CustomText from "../components/CustomText";
 
